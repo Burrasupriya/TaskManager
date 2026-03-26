@@ -196,7 +196,7 @@ export default function Home() {
     fetchTasks();
     fetchStats();
   }, []);
-R
+
   const applyFilters = () => {
     fetchTasks(true);
   };
