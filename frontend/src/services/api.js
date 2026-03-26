@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-   baseURL: "http://localhost:5000/api",
-   //baseURL: "https://task-manager-backend-six-gamma.vercel.app/",
+   //baseURL: "http://localhost:5000/api",
+   baseURL: "https://task-manager-backend-six-gamma.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {
